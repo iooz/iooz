@@ -1,4 +1,3 @@
-# <p align="center">Apasi Dek</p>
 ### <p align="center">Baru Belajar Bang</p>
 
 <p align="center">
