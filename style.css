@@ -1,75 +1,81 @@
-body {
-    font-family: 'Ubuntu', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #d0d0d0;
-  }
-  
-  header {
-    background-color: rgb(134, 127, 127);
-    background-image: url(images/peakpx.jpg);
-    background-size: cover;
-    background-position: top;
-    text-align: center;
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-
-  nav {
-    background-color: #d0d0d0;
-    display: block;
-    text-align: center;
-  }
-
-.navv {
-  font-family: 'Monomaniac One', sans-serif;
-  font-size: larger;
+body{
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #d0d0d0;
 }
   
+header {
+  background-color: rgb(134, 127, 127);
+  background-image: url(images/peakpx.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  position: relative;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  font-size: 1rem;
+  color: #000;
+}
+
+a:hover{
+  color: aqua;
+}
+
+.links{
+  display: flex;
+  text-align: center;
+  color: white;
+}
+
+.navbar{
+  width: 100%;
+  height: 100px;
+}
+
+.navbar .links {
+  font-family: 'Monomaniac One', sans-serif;
+  font-size: large;
+  display: flex;
+  gap: 11rem;
+  color: aquamarine;
+  position: relative;
+}
+
+.navbar .toogle_btn {
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+
 .welcomee {
   font-family: 'Tilt Prism', cursive;
   font-weight: 900px;
   font-size: 70px;
 }
 
-.abtme {
-  font-weight: normal;
+main {
+  padding: 20px;
 }
-
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
   
-  nav ul li {
-    display: inline;
-  }
+section {
+  margin-bottom: 40px;
+}
   
-  nav ul li a {
-    display: block;
-    padding: 10px 20px;
-    color: black;
-    text-decoration: none;
-  }
-  
-  nav ul li a:hover {
-    background-color: #FF1493;
-  }
-  
-  main {
-    padding: 20px;
-  }
-  
-  section {
-    margin-bottom: 40px;
-  }
-  
-  footer {
-    background-color: #FFC0CB;
-    text-align: center;
-    padding-top: 1px;
-    padding-bottom: 1px;
-  }
+footer {
+  background-color: #FFC0CB;
+  text-align: center;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
   

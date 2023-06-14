@@ -3,6 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
@@ -13,19 +19,22 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   
 </head>
-<body>
+<body onload="zoom()">
   <header>
+    <div class="navbar">
+    <ul class="links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="toogle_btn">
+        <i class="fa-solid fa-bars" style="color: #000000;"></i>
+      </div>
+    </div>
+
     <h1 class="welcomee">IOOZ</h1>
   </header>
-
-  <nav>
-    <ul class="navv">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
 
   <main>
     <section id="welcome">
@@ -34,18 +43,7 @@
       <p>Its Currently Using HTML, I've just learned The Basic First.</p>
       <p>Then I'll Try To Upgrade Using Other Languages.</p>
       <p>I'm Climbing To The Top Baby.</p>
-    </section>
-    
-    <section id="littleaboutme">
-      <h2 class="abtme">
-        IM a 16yo Learning, Renpy VN Maker(Renpy Make It Easier To Create VN), Famous Musician With 4 Listener Every Month On Spotify. 
-      </h2>
-      <p>
-        <h2 class="abtme">
-          Know More About Me <a href="about.html">Here</a>
-        </h2>
-      </p>
-    </section>
+      <p>Know More About Me <a href="about.html">Here</a></p>
   </main>
 
 
@@ -57,9 +55,7 @@
     function zoom() {
         document.body.style.zoom = "175%" 
     }
-</script>
-
-<body onload="zoom()">
+  </script>
 
   <script src="script.js"></script>
 </body>
